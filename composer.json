@@ -1,0 +1,25 @@
+{
+    "name": "letan/vnpay",
+    "description": "test package",
+    "authors": [{
+        "name": "Tan le",
+        "email": "tanltps04690@gmail.com"
+    }],
+    "type": "library",
+    "require": {},
+    "minimum-stability": "dev",
+
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tanle\\Vnpay\\Vnpayservice"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Tanle\\Vnpay\\": "src/"
+        }
+    }
+}
